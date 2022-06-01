@@ -1,0 +1,357 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "flappy_flutter"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "flappy_flutter"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "MainFlutterWindow",
+      "printedName": "MainFlutterWindow",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "awakeFromNib",
+          "printedName": "awakeFromNib()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@flappy_flutter@objc(cs)MainFlutterWindow(im)awakeFromNib",
+          "mangledName": "$s14flappy_flutter17MainFlutterWindowC12awakeFromNibyyF",
+          "moduleName": "flappy_flutter",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "awakeFromNib",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(contentRect:styleMask:backing:defer:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "MainFlutterWindow",
+              "printedName": "flappy_flutter.MainFlutterWindow",
+              "usr": "c:@M@flappy_flutter@objc(cs)MainFlutterWindow"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "StyleMask",
+              "printedName": "AppKit.NSWindow.StyleMask",
+              "usr": "c:@E@NSWindowStyleMask"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "BackingStoreType",
+              "printedName": "AppKit.NSWindow.BackingStoreType",
+              "usr": "c:@E@NSBackingStoreType"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@flappy_flutter@objc(cs)MainFlutterWindow(im)initWithContentRect:styleMask:backing:defer:",
+          "mangledName": "$s14flappy_flutter17MainFlutterWindowC11contentRect9styleMask7backing5deferACSo6CGRectV_So013NSWindowStyleI0VSo18NSBackingStoreTypeVSbtcfc",
+          "moduleName": "flappy_flutter",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithContentRect:styleMask:backing:defer:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@flappy_flutter@objc(cs)MainFlutterWindow",
+      "mangledName": "$s14flappy_flutter17MainFlutterWindowC",
+      "moduleName": "flappy_flutter",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)NSWindow",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "AppKit.NSWindow",
+        "AppKit.NSResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Cocoa",
+      "printedName": "Cocoa",
+      "declKind": "Import",
+      "moduleName": "flappy_flutter"
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "flappy_flutter"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AppDelegate",
+      "printedName": "AppDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "applicationShouldTerminateAfterLastWindowClosed",
+          "printedName": "applicationShouldTerminateAfterLastWindowClosed(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSApplication",
+              "printedName": "AppKit.NSApplication",
+              "usr": "c:objc(cs)NSApplication"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@flappy_flutter@objc(cs)AppDelegate(im)applicationShouldTerminateAfterLastWindowClosed:",
+          "mangledName": "$s14flappy_flutter11AppDelegateC47applicationShouldTerminateAfterLastWindowClosedySbSo13NSApplicationCF",
+          "moduleName": "flappy_flutter",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "applicationShouldTerminateAfterLastWindowClosed:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AppDelegate",
+              "printedName": "flappy_flutter.AppDelegate",
+              "usr": "c:@M@flappy_flutter@objc(cs)AppDelegate"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@flappy_flutter@objc(cs)AppDelegate(im)init",
+          "mangledName": "$s14flappy_flutter11AppDelegateCACycfc",
+          "moduleName": "flappy_flutter",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "init",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@flappy_flutter@objc(cs)AppDelegate",
+      "mangledName": "$s14flappy_flutter11AppDelegateC",
+      "moduleName": "flappy_flutter",
+      "isOpen": true,
+      "declAttributes": [
+        "NSApplicationMain",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)FlutterAppDelegate",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "FlutterMacOS.FlutterAppDelegate",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FlutterMacOS",
+      "printedName": "FlutterMacOS",
+      "declKind": "Import",
+      "moduleName": "flappy_flutter",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "flappy_flutter"
+    },
+    {
+      "kind": "Function",
+      "name": "RegisterGeneratedPlugins",
+      "printedName": "RegisterGeneratedPlugins(registry:)",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Void",
+          "printedName": "()"
+        },
+        {
+          "kind": "TypeNominal",
+          "name": "FlutterPluginRegistry",
+          "printedName": "FlutterMacOS.FlutterPluginRegistry",
+          "usr": "c:objc(pl)FlutterPluginRegistry"
+        }
+      ],
+      "declKind": "Func",
+      "usr": "s:14flappy_flutter24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "mangledName": "$s14flappy_flutter24RegisterGeneratedPlugins8registryySo21FlutterPluginRegistry_p_tF",
+      "moduleName": "flappy_flutter",
+      "funcSelfKind": "NonMutating"
+    }
+  ],
+  "json_format_version": 6
+}
